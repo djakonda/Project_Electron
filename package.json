@@ -1,0 +1,23 @@
+{
+  "name": "videojs-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "videojs": "./app.js"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Djakonda",
+  "license": "MIT",
+  "dependencies": {
+    "electron-prebuilt": "^0.34.0",
+    "electronify": "^1.0.1",
+    "twitch-get-stream": "^0.3.0",
+    "video.js": "^5.0.0",
+    "videojs-contrib-hls": "^1.0.1-0",
+    "videojs-youtube": "^2.0.0"
+  }
+}
